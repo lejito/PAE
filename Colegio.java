@@ -35,7 +35,7 @@ public class Colegio {
         System.out.println("Ingrese el nit del colegio: ");
         String nit = entrada.nextLine();
         for (Colegio nt: colegios){
-            if (nit.equals(nt.nit)){
+            if ((nt.nit==nit)){
                 System.out.println("Los datos del colegio son: ");
                 System.out.println("nit: " + nt.nit);
                 System.out.println("nombre: " + nt.nombre);
@@ -44,6 +44,7 @@ public class Colegio {
             }
         }
     }
+
 
     enum Estado_col{
         Recibido, Recibidont
@@ -56,9 +57,8 @@ public class Colegio {
         for(Proveedor i:proveedores){
             if (i.nombre== nombre){
                 System.out.println("Ingrese el nuevo telefono: ");
-                String telefono = entrada.nextLine();
-
-
+                String n_telefono = entrada.nextLine();
+                i.telefono=n_telefono;
             }
         }
 
