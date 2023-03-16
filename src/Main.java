@@ -22,9 +22,9 @@ public class Main {
             System.out.println("Ingrese que quieres hacer");
             System.out.println("1. Registar nuevo colegio: ");
             System.out.println("2. Registar proovedor");
-            System.out.println("3. Ver estudiantes de genero femenino");
-            System.out.println("4. Ver personas de forma imperactiva");
-            System.out.println("5. Ver personas de forma declarativa");
+            System.out.println("3. ");
+            System.out.println("4. ");
+            System.out.println("5. ");
             int opcion = entrada.nextInt();
 
             if (opcion == 1) {
