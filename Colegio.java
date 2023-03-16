@@ -50,19 +50,6 @@ public class Colegio {
         Recibido, Recibidont
     }
 
-    public static void Editar_Prov(List<Proveedor> proveedores ) {
-        Scanner entrada = new Scanner(System.in);
-        System.out.println("Ingrese nombre del provedor: ");
-        String nombre = entrada.nextLine();
-        for(Proveedor i:proveedores){
-            if (i.nombre== nombre){
-                System.out.println("Ingrese el nuevo telefono: ");
-                String n_telefono = entrada.nextLine();
-                i.telefono=n_telefono;
-            }
-        }
 
-
-    }
 }
 
