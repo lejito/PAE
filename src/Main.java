@@ -12,16 +12,16 @@ public class Main {
         colegios.add(new Colegio("I.E La presentacion", 1456, 450));
 
         List<Proveedor> proveedores = new ArrayList<>();
-        proveedores.add(new Proveedor("Jose", "32424323"));
-        proveedores.add(new Proveedor("Paulo", "324243223"));
-        proveedores.add(new Proveedor("Dybala", "325444323"));
+        proveedores.add(new Proveedor("Colanta", "32424323"));
+        proveedores.add(new Proveedor("ALpina", "324243223"));
+        proveedores.add(new Proveedor("Fruber", "325444323"));
 
         while (true) {
             Scanner entrada = new Scanner(System.in);
             System.out.println("\n");
             System.out.println("Ingrese que quieres hacer");
             System.out.println("1. Registar nuevo colegio: ");
-            System.out.println("2. Registar proovedor");
+            System.out.println("2. Registar proveedor");
             System.out.println("3. ");
             System.out.println("4. ");
             System.out.println("5. ");

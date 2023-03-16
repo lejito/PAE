@@ -48,5 +48,21 @@ public class Colegio {
     enum Estado_col{
         Recibido, Recibidont
     }
+
+    public static void Editar_Prov(List<Proveedor> proveedores ) {
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Ingrese nombre del provedor: ");
+        String nombre = entrada.nextLine();
+        for(Proveedor i:proveedores){
+            if (i.nombre== nombre){
+                System.out.println("Ingrese el nuevo telefono: ");
+                String telefono = entrada.nextLine();
+
+
+            }
+        }
+
+
+    }
 }
 

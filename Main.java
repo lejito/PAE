@@ -12,9 +12,10 @@ public class Main {
         colegios.add(new Colegio("I.E La presentacion", "1456", 450));
 
         List<Proveedor> proveedores = new ArrayList<>();
-        proveedores.add(new Proveedor("112","Jose", "32424323"));
-        proveedores.add(new Proveedor("113","Paulo", "324243223"));
-        proveedores.add(new Proveedor("114","Dybala", "325444323"));
+        proveedores.add(new Proveedor("Colanta", "32424323"));
+        proveedores.add(new Proveedor("ALpina", "324243223"));
+        proveedores.add(new Proveedor("Fruber", "325444323"));
+
 
         while (true) {
             Scanner entrada = new Scanner(System.in);
