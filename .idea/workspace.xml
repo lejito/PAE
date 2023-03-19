@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a" name="Changes" comment="PAE Actualizacion 5">
-      <change afterPath="$PROJECT_DIR$/src/PAE.java" afterDir="false" />
+    <list default="true" id="ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a" name="Changes" comment="PAE Actualizacion PAE CLASE">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Colegio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colegio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Proveedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proveedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/PAE.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/PAE.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679260660625</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="PAE Actualizacion PAE CLASE">
+      <created>1679266750720</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1679266750720</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -126,6 +131,7 @@
     <MESSAGE value="PAE Actualizacion 3" />
     <MESSAGE value="PAE Actualizacion editar_prov" />
     <MESSAGE value="PAE Actualizacion 5" />
-    <option name="LAST_COMMIT_MESSAGE" value="PAE Actualizacion 5" />
+    <MESSAGE value="PAE Actualizacion PAE CLASE" />
+    <option name="LAST_COMMIT_MESSAGE" value="PAE Actualizacion PAE CLASE" />
   </component>
 </project>

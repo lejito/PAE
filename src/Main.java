@@ -5,6 +5,7 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        PAE pae= new PAE();
 
 
         while (true) {
@@ -18,11 +19,12 @@ public class Main {
             System.out.println("5. Editar datos del provedor ");
             int opcion = entrada.nextInt();
 
-            PAE pae= new PAE();
+
 
             if (opcion == 1) {
 
                 Colegio.Registrar_Col(pae.colegios);
+
 
             }
             if (opcion == 2) {
@@ -32,6 +34,7 @@ public class Main {
             if (opcion == 3) {
 
                 Colegio.Ver_Informacion_Col(pae.colegios);
+
             }
             if (opcion == 4) {
 
