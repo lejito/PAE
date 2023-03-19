@@ -54,10 +54,10 @@ public class Proveedor {
     public static void Editar_Prov(List<Proveedor> proveedores ) {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Ingrese nombre del provedor: ");
-        String nombre = entrada.nextLine();
+        String id = entrada.nextLine();
         int cont=0;
         for(Proveedor i:proveedores){
-            if (i.nombre== nombre){
+            if (i.id.equals(id) ){
                 cont++;
                 System.out.println("Ingrese el nuevo telefono: ");
                 String n_telefono = entrada.nextLine();
@@ -65,7 +65,7 @@ public class Proveedor {
             }
         }
         if (cont==0){
-            System.out.println("No existe un proveedor con este nombre "+ nombre);
+            System.out.println("No existe un proveedor con este nombre "+ id);
         }
         else{
             System.out.println("Informacion cambiada correctamente");

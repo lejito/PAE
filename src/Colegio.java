@@ -27,7 +27,6 @@ public class Colegio {
         Colegio new_colegio= new Colegio(nombre,nit,cupos);
 
         colegios.add(new_colegio);
-
     }
 
     public static void Ver_Informacion_Col(List<Colegio> colegios){
