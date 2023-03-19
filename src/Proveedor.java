@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Proveedor {
     public final String id;
     public final String nombre;
-    public final String telefono;
+    public  String telefono;
     public final Estado_prov estado;
 
 
@@ -55,13 +55,13 @@ public class Proveedor {
         Scanner entrada = new Scanner(System.in);
         System.out.println("Ingrese nombre del provedor: ");
         String nombre = entrada.nextLine();
-        int cont=0
+        int cont=0;
         for(Proveedor i:proveedores){
             if (i.nombre== nombre){
-                cont++
+                cont++;
                 System.out.println("Ingrese el nuevo telefono: ");
                 String n_telefono = entrada.nextLine();
-                i.telefono=n_telefono;
+                i.telefono = n_telefono;
             }
         }
         if (cont==0){

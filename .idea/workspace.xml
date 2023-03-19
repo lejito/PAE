@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a" name="Changes" comment="PAE Actualizacion">
+    <list default="true" id="ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a" name="Changes" comment="PAE Actualizacion editar_prov">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Colegio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Colegio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Colegio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Colegio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Proveedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Proveedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,13 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/sebas/IdeaProjects/PAE/src"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sebas/IdeaProjects/PAE/src&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingContextRecentDirectoryCache">
     <option name="paths">
       <recentPaths value="$PROJECT_DIR$/src" />
@@ -83,7 +85,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678967400298</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="PAE Actualizacion 3">
+      <created>1678968396156</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678968396156</updated>
+    </task>
+    <task id="LOCAL-00005" summary="PAE Actualizacion editar_prov">
+      <created>1678969030102</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678969030102</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -99,17 +115,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="PAE Actualizacion" />
-    <option name="LAST_COMMIT_MESSAGE" value="PAE Actualizacion" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/Main.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="PAE Actualizacion 3" />
+    <MESSAGE value="PAE Actualizacion editar_prov" />
+    <option name="LAST_COMMIT_MESSAGE" value="PAE Actualizacion editar_prov" />
   </component>
 </project>

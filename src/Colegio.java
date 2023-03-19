@@ -35,7 +35,7 @@ public class Colegio {
         System.out.println("Ingrese el nit del colegio: ");
         String nit = entrada.nextLine();
         for (Colegio nt: colegios){
-            if ((nt.nit==nit)){
+            if ((nt.nit.equals(nit))){
                 System.out.println("Los datos del colegio son: ");
                 System.out.println("nit: " + nt.nit);
                 System.out.println("nombre: " + nt.nombre);
