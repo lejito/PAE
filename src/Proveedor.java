@@ -53,7 +53,7 @@ public class Proveedor {
 
     public static void Editar_Prov(List<Proveedor> proveedores ) {
         Scanner entrada = new Scanner(System.in);
-        System.out.println("Ingrese nombre del provedor: ");
+        System.out.println("Ingrese el id del proveedor: ");
         String id = entrada.nextLine();
         int cont=0;
         for(Proveedor i:proveedores){
@@ -74,7 +74,36 @@ public class Proveedor {
 
 
 
+
     }
+    public static void Eliminar_Prov(List<Proveedor> proveedores ) {
+        Scanner entrada = new Scanner(System.in);
+        System.out.println("Ingrese el id del proveedor que desea eliminar: ");
+        String id = entrada.nextLine();
+        int cont=0;
+
+        for(Proveedor p:proveedores){
+            if (p.id.equals(id) ){
+                cont++;
+                proveedores.remove(p);
+                break;
+
+            }
+        }
+
+        if (cont==0){
+            System.out.println("No existe un proveedor con este id: "+ id);
+        }
+        else{
+            System.out.println("Proveedor eliminado correctamente");
+
+        }
+
+
+
+
+    }
+
 
 
 }

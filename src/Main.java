@@ -17,6 +17,7 @@ public class Main {
             System.out.println("3. Ver informacion de un colegio: ");
             System.out.println("4. Ver informacion de un proveedor: ");
             System.out.println("5. Editar datos del provedor ");
+            System.out.println("6. Eliminar proveedor ");
             int opcion = entrada.nextInt();
 
 
@@ -30,6 +31,7 @@ public class Main {
             if (opcion == 2) {
 
                 Proveedor.Registrar_Prov(pae.proveedores);
+                System.out.println(pae.proveedores);
             }
             if (opcion == 3) {
 
@@ -44,6 +46,12 @@ public class Main {
 
                 Proveedor.Editar_Prov(pae.proveedores);
 
+
+            }
+            if (opcion == 6) {
+
+                Proveedor.Eliminar_Prov(pae.proveedores);
+                System.out.println(pae.proveedores);
 
             }
         }
