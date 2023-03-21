@@ -68,12 +68,9 @@ public class Proveedor {
             System.out.println("No existe un proveedor con este nombre "+ id);
         }
         else{
-            System.out.println("Informacion cambiada correctamente");
+            System.out.println("Informacion actualizada correctamente");
 
         }
-
-
-
 
     }
     public static void Eliminar_Prov(List<Proveedor> proveedores ) {
@@ -99,12 +96,7 @@ public class Proveedor {
 
         }
 
-
-
-
     }
-
-
 
 }
 
