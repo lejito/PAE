@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a" name="Changes" comment="Recibida proyecto">
-      <change afterPath="$PROJECT_DIR$/src/declarativo/modelos/EstadoColegio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/declarativo/modelos/EstadoProveedor.java" afterDir="false" />
+    <list default="true" id="ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a" name="Changes" comment="Clases implementadas">
+      <change afterPath="$PROJECT_DIR$/src/declarativo/menus/MenuPrincipal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declarativo/modelos/Colegio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/modelos/Colegio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declarativo/modelos/Entrega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/modelos/Entrega.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declarativo/modelos/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/modelos/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declarativo/modelos/Proveedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/modelos/Proveedor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/declarativo/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +17,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -31,6 +27,9 @@
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
   </component>
   <component name="ProjectId" id="2N4hOs9PRYs2d81x88gngtH09RJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -136,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679572145841</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Clases implementadas">
+      <created>1679691856787</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1679691856787</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +163,7 @@
     <MESSAGE value="PAE Actualizacion 5" />
     <MESSAGE value="PAE Actualizacion PAE CLASE" />
     <MESSAGE value="Recibida proyecto" />
-    <option name="LAST_COMMIT_MESSAGE" value="Recibida proyecto" />
+    <MESSAGE value="Clases implementadas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Clases implementadas" />
   </component>
 </project>
