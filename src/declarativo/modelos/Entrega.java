@@ -1,12 +1,13 @@
 package declarativo.modelos;
 
 import java.time.LocalDateTime;
+import java.util.Date;
 
 public class Entrega {
-    public final LocalDateTime fecha;
+    public final Date fecha;
     public final Colegio colegio;
-    public Entrega(LocalDateTime fecha, Colegio colegio) {
-        this.fecha = fecha;
+    public Entrega( Colegio colegio) {
+        this.fecha = new Date();
         this.colegio = colegio;
     }
     @Override

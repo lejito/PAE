@@ -4,10 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a" name="Changes" comment="Clases implementadas">
-      <change afterPath="$PROJECT_DIR$/src/declarativo/menus/MenuPrincipal.java" afterDir="false" />
+    <list default="true" id="ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a" name="Changes" comment="menu principal">
+      <change afterPath="$PROJECT_DIR$/src/declarativo/menus/MenuEntrega.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/declarativo/menus/MenuProductos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/declarativo/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/declarativo/menus/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/menus/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/declarativo/menus/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/menus/MenuPrincipal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/declarativo/modelos/Entrega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/modelos/Entrega.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +33,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2N4hOs9PRYs2d81x88gngtH09RJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -54,7 +58,20 @@
       <recentPaths value="$PROJECT_DIR$/src" />
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Principal">
+    <configuration name="Principal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="declarativo.Principal" />
+      <module name="PAE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="declarativo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="PAE" />
@@ -62,6 +79,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Principal" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -142,7 +164,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679691856787</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="menu principal">
+      <created>1679693057717</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679693057717</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -164,6 +193,7 @@
     <MESSAGE value="PAE Actualizacion PAE CLASE" />
     <MESSAGE value="Recibida proyecto" />
     <MESSAGE value="Clases implementadas" />
-    <option name="LAST_COMMIT_MESSAGE" value="Clases implementadas" />
+    <MESSAGE value="menu principal" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu principal" />
   </component>
 </project>
