@@ -4,21 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a" name="Changes" comment="menu principal">
-      <change afterPath="$PROJECT_DIR$/src/declarativo/menus/MenuColegios.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/declarativo/menus/MenuProveedores.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/declarativo/modelos/PAE.java" afterDir="false" />
+    <list default="true" id="ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a" name="Changes" comment="Menús: Colegios &amp; Proveedores | +Refactorización">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declarativo/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/declarativo/menus/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/menus/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declarativo/menus/MenuEntrega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/menus/MenuEntregas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/declarativo/menus/MenuEntregas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/menus/MenuEntregas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/declarativo/menus/MenuPrincipal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/menus/MenuPrincipal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declarativo/menus/MenuProductos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/menus/MenuProductos.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declarativo/modelos/Colegio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/modelos/Colegio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declarativo/modelos/Entrega.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/modelos/Entrega.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declarativo/modelos/EstadoProveedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/modelos/EstadoProveedor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declarativo/modelos/Producto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/modelos/Producto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/declarativo/modelos/Proveedor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/declarativo/modelos/Proveedor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,19 +38,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/sebas/IdeaProjects/PAE/src",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.lookFeel"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sebas/IdeaProjects/PAE/src&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
   }
-}]]></component>
+}</component>
   <component name="RunAnythingContextRecentDirectoryCache">
     <option name="paths">
       <recentPaths value="$PROJECT_DIR$/src" />
@@ -179,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679693057717</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Menús: Colegios &amp; Proveedores | +Refactorización">
+      <created>1679884925395</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679884925395</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +199,7 @@
     <MESSAGE value="Recibida proyecto" />
     <MESSAGE value="Clases implementadas" />
     <MESSAGE value="menu principal" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu principal" />
+    <MESSAGE value="Menús: Colegios &amp; Proveedores | +Refactorización" />
+    <option name="LAST_COMMIT_MESSAGE" value="Menús: Colegios &amp; Proveedores | +Refactorización" />
   </component>
 </project>

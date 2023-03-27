@@ -1,0 +1,84 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a\" name=\"Changes\" comment=\"Recibida proyecto\">\r\n      <change afterPath=\"$PROJECT_DIR$/.idea/uiDesigner.xml\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/declarativo/Principal.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/declarativo/menus/Menu.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/declarativo/modelos/Colegio.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/declarativo/modelos/Entrega.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/declarativo/modelos/Producto.java\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/src/declarativo/modelos/Proveedor.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Class\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectId\" id=\"2N4hOs9PRYs2d81x88gngtH09RJ\" />\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"last_opened_file_path\": \"C:/Users/sebas/IdeaProjects/PAE/src\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RunAnythingContextRecentDirectoryCache\">\r\n    <option name=\"paths\">\r\n      <recentPaths value=\"$PROJECT_DIR$/src\" />\r\n    </option>\r\n  </component>\r\n  <component name=\"RunManager\">\r\n    <configuration name=\"Unnamed\" type=\"Application\" factoryName=\"Application\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"Main\" />\r\n      <module name=\"PAE\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a\" name=\"Changes\" comment=\"\" />\r\n      <created>1678929236442</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1678929236442</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"PAE Actualizacion\">\r\n      <created>1678934598339</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678934598339</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"PAE Actualizacion\">\r\n      <created>1678934955212</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678934955212</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"PAE Actualizacion\">\r\n      <created>1678967400298</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678967400298</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"PAE Actualizacion 3\">\r\n      <created>1678968396156</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678968396156</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"PAE Actualizacion editar_prov\">\r\n      <created>1678969030102</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1678969030102</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"PAE Actualizacion 5\">\r\n      <created>1679260660625</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679260660625</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"PAE Actualizacion PAE CLASE\">\r\n      <created>1679266750720</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679266750720</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"PAE Actualizacion PAE CLASE\">\r\n      <created>1679268564801</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679268564801</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"Recibida proyecto\">\r\n      <created>1679572145841</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1679572145841</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"PAE Actualizacion\" />\r\n    <MESSAGE value=\"PAE Actualizacion 3\" />\r\n    <MESSAGE value=\"PAE Actualizacion editar_prov\" />\r\n    <MESSAGE value=\"PAE Actualizacion 5\" />\r\n    <MESSAGE value=\"PAE Actualizacion PAE CLASE\" />\r\n    <MESSAGE value=\"Recibida proyecto\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Recibida proyecto\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5d9627ef814f795098272d51601d70d81f6392ef)
++++ b/.idea/workspace.xml	(date 1679685859617)
+@@ -4,16 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a" name="Changes" comment="Recibida proyecto">
+-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/declarativo/Principal.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/declarativo/menus/Menu.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/declarativo/modelos/Colegio.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/declarativo/modelos/Entrega.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/declarativo/modelos/Producto.java" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/src/declarativo/modelos/Proveedor.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
++    <list default="true" id="ddb7c1c9-211c-4b2f-9bb5-0a7c57740f6a" name="Changes" comment="Reestructuración: Creación paquetes/clases" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -38,18 +29,18 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+-    "last_opened_file_path": "C:/Users/sebas/IdeaProjects/PAE/src",
+-    "node.js.detected.package.eslint": "true",
+-    "node.js.detected.package.tslint": "true",
+-    "node.js.selected.package.eslint": "(autodetect)",
+-    "node.js.selected.package.tslint": "(autodetect)"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
++    &quot;last_opened_file_path&quot;: &quot;C:/Users/sebas/IdeaProjects/PAE/src&quot;,
++    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
++    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
++    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
++    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RunAnythingContextRecentDirectoryCache">
+     <option name="paths">
+       <recentPaths value="$PROJECT_DIR$/src" />
+@@ -136,7 +127,14 @@
+       <option name="project" value="LOCAL" />
+       <updated>1679572145841</updated>
+     </task>
+-    <option name="localTasksCounter" value="10" />
++    <task id="LOCAL-00010" summary="Reestructuración: Creación paquetes/clases">
++      <created>1679683690564</created>
++      <option name="number" value="00010" />
++      <option name="presentableId" value="LOCAL-00010" />
++      <option name="project" value="LOCAL" />
++      <updated>1679683690564</updated>
++    </task>
++    <option name="localTasksCounter" value="11" />
+     <servers />
+   </component>
+   <component name="Vcs.Log.Tabs.Properties">
+@@ -157,6 +155,7 @@
+     <MESSAGE value="PAE Actualizacion 5" />
+     <MESSAGE value="PAE Actualizacion PAE CLASE" />
+     <MESSAGE value="Recibida proyecto" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Recibida proyecto" />
++    <MESSAGE value="Reestructuración: Creación paquetes/clases" />
++    <option name="LAST_COMMIT_MESSAGE" value="Reestructuración: Creación paquetes/clases" />
+   </component>
+ </project>
+\ No newline at end of file

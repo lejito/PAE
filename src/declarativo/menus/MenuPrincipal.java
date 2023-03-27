@@ -5,13 +5,8 @@ import declarativo.modelos.PAE;
 public class MenuPrincipal extends Menu {
     public MenuPrincipal(PAE pae) {
         String[] opciones = new String[]{
-                "ADMINISTRAR COLEGIOS",
-                "ADMINISTRAR PROVEEDORES",
-                "ADMINISTRAR PRODUCTOS",
-                "ADMINISTRAR ENTREGAS",
-                "VER PRESUPUESTO",
-                "AGREGAR MONTO AL PRESUPUESTO",
-                "SALIR DEL PROGRAMA"
+                "ADMINISTRAR COLEGIOS", "ADMINISTRAR PROVEEDORES", "ADMINISTRAR PRODUCTOS", "ADMINISTRAR ENTREGAS",
+                "VER PRESUPUESTO", "AGREGAR MONTO AL PRESUPUESTO", "SALIR DEL PROGRAMA"
         };
         while (true) {
             mostrarOpciones(titulo, "- MENU PRINCIPAL -", opciones);

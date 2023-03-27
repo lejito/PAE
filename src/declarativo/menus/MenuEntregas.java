@@ -9,7 +9,7 @@ public class MenuEntregas extends Menu {
         while (true) {
             String[] opciones = new String[]{"Ver historial de entregas", "Realizar entrega a colegio", "Salir al menú principal"};
             mostrarOpciones(titulo, "- ADMINISTRAR PRODUCTOS -", opciones);
-            int opcion = leerOpcion(opciones.length);
+            int opcion = obtenerOpcion(opciones.length);
             switch (opcion) {
                 case 1 -> {
                     System.out.println("- HISTORIAL DE ENTREGAS -");

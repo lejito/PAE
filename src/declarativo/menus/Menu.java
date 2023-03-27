@@ -8,26 +8,6 @@ public abstract class Menu {
     public final Scanner scanner = new Scanner(System.in);
     public final String titulo = "=== PROGRAMA DE ALIMENTACIÓN ESCOLAR ===";
 
-    public boolean confirmarContinuar() {
-        int op = obtenerEntradaInt("[?] ¿Desea continuar? Presione 1 para continuar o 0 para salir: ");
-        return op > 0;
-    }
-
-    public int leerOpcion(int cantidadOpciones) {
-        int opcion = 0;
-        boolean valorIncorrecto = true;
-        while (valorIncorrecto) {
-            opcion = obtenerEntradaInt(":");
-
-            if (opcion <= 0 || opcion > cantidadOpciones) {
-                System.out.println("[!] Opción ingresada no válida, ingrese nuevamente una opción correcta.");
-            } else {
-                valorIncorrecto = false;
-            }
-        }
-        return opcion;
-    }
-
     public int obtenerOpcion(int cantidadOpciones) {
         int opcion = 0;
         boolean valorIncorrecto = true;
@@ -81,23 +61,6 @@ public abstract class Menu {
             System.out.println("***Lista vacía***");
         } else {
             lista.forEach(item -> System.out.printf("[%d] %s%n", lista.indexOf(item) + 1, item.toString()));
-        }
-    }
-
-    public int selecionarItem(LinkedList<?> lista) {
-        if (lista.size() == 0) {
-            System.out.println("[!] No existen elementos en la lista.");
-            return -1;
-        } else {
-            int opcion = 0;
-            while (true) {
-                opcion = obtenerEntradaInt("Ingresa el índice del elemento a seleccionar:");
-                if (opcion <= 0 || opcion > lista.size()) {
-                    System.out.println("[!] El valor ingresado debe ser un índice válido. Inténtalo nuevamente.");
-                } else {
-                    return opcion;
-                }
-            }
         }
     }
 
