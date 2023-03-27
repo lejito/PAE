@@ -1,81 +1,112 @@
 package declarativo.menus;
 
+import declarativo.modelos.PAE;
 import declarativo.modelos.Producto;
-import declarativo.modelos.Proveedor;
 
 import java.util.LinkedList;
 
 public class MenuProductos extends Menu {
-    public  MenuProductos(LinkedList<Producto> productos, LinkedList<Proveedor> proveedores, float presupuesto){
-        boolean continuar = true;
-        while (continuar){
-            mostrarOpciones("MENU PRINCIPAL","MENU DE PRODUCTOS","Ver productos","Agregar producto","Eliminar producto","Ver productos a punto de agotarse","Realizar pedido de producto");
-            int opcion = leerOpcion(5);
-            switch (opcion){
-                case 1 ->{verIterable(productos);}
-                case 2 ->{
-                    if(proveedores.size() ==0){
-                        System.out.println("No existen proveedores disponibles, agregue un proveedor antes de ingresar un producto.");
-                        break;
+    public MenuProductos(PAE pae) {
+        while (true) {
+            String[] opciones = new String[]{
+                    "Ver productos", "Agregar producto", "Eliminar producto",
+                    "Ver productos a punto de agotarse", "Realizar pedido", "Salir al menú principal"
+            };
+            mostrarOpciones(titulo, "- ADMINISTRAR PRODUCTOS -", opciones);
+            int opcion = obtenerOpcion(opciones.length);
+            switch (opcion) {
+                case 1 -> {
+                    System.out.println("- LISTA DE PRODUCTOS -");
+                    verIterable(pae.productos);
+                }
+                case 2 -> {
+                    if (pae.proveedores.size() == 0) {
+                        System.out.println("[!] Para realizar esta acción es necesario que hayan proveedores registrados.");
+                    } else {
+                        pae.agregarProducto(new Producto(
+                                obtenerEntradaTexto("Ingresa el nombre del producto:"),
+                                obtenerEntradaFloat("Ingresa el precio unitario del producto:"),
+                                obtenerEntradaInt("Ingresa la cantidad del producto:"),
+                                pae.proveedores.get(obtenerElemento("Elige el proveedor del producto:", pae.proveedores))
+                        ));
+                        System.out.println("[✔] Producto agregado correctamente.");
                     }
-                    String nombre = obtenerEntradaTexto("Ingrese nombre del producto\n: ");
-                    float precio = obtenerEntradaFloat("Ingrese precio del producto por unidad\n: ");
-                    int cantidad = obtenerEntradaInt("Ingrese la cantidad del producto que desea agregar\n:");
-                    System.out.println("Selecione el proveedor del producto");
-                    int selecion = selecionarItem(proveedores);
-                    productos.add(new Producto(nombre,precio,cantidad,proveedores.get(selecion)));
-                    System.out.println("Producto agregado satisfactoriamente");
                 }
-                case 3->{
-                    System.out.println("Selecione el producto que desea eliminar: ");
-                    int selecion = selecionarItem(productos);
-                    if (selecion == -1 ){
-                        break;
+                case 3 -> {
+                    if (hayProductos(pae.productos)) {
+                        int index = obtenerElemento("Elige el producto a eliminar:", pae.productos);
+                        pae.eliminarProducto(index);
+                        System.out.println("[✔] Producto eliminado correctamente.");
                     }
-                    productos.remove(selecion);
                 }
-                case 4->{
-                    System.out.println("Productos a punto de agotarse");
-                    productos.stream().filter(producto->producto.cantidad < 10).forEach(producto -> System.out.printf(">[%d]: %s",productos.indexOf(producto),producto.toString()));
+                case 4 -> {
+                    if (hayProductos(pae.productos)) {
+                        System.out.println("- LISTA DE PRODUCTOS A PUNTO DE AGOTARSE -");
+                        verIterable(productosAPuntoDeAgotarse(pae.productos));
+                    }
                 }
-                case 5->{
-                    float valor = 0;
-                    mostrarOpciones("MENU DE PRODUCTOS","MENU DE PEDIDO"," Realizar pedido de todos los productos a punto de agotarse","Realizar pedido de un solo producto");
-                    int opcionPedido = leerOpcion(2);
-                    switch (opcionPedido){
-                        case 1->{
-                            productos.stream().filter(producto -> producto.cantidad < 10).forEach(producto -> pedidoProducto(producto,presupuesto));
-                        }
-                        case 2->{
-                            System.out.println("Selecione el producto al cual realizar el pedido");
-                            int selecion = selecionarItem(productos);
-                            if(selecion == -1){
-                                break;
+                case 5 -> {
+                    if (hayProductos(pae.productos)) {
+                        String[] opcionesPedido = new String[]{
+                                "Realizar pedido de un solo producto",
+                                "Realizar pedido de todos los productos a punto de agotarse",
+                        };
+                        mostrarOpciones("- ADMINISTRAR PRODUCTOS -", "- REALIZAR PEDIDO -", opcionesPedido);
+                        int opcionPedido = obtenerOpcion(opcionesPedido.length);
+                        switch (opcionPedido) {
+                            case 1 -> {
+                                if (hayProductos(pae.productos)) {
+                                    realizarPedido(pae.productos.get(obtenerElemento("Elige el producto para realizar el pedido:", pae.productos)), pae);
+                                }
                             }
-                            pedidoProducto(productos.get(selecion),presupuesto);
-
+                            case 2 ->
+                                    productosAPuntoDeAgotarse(pae.productos).forEach(producto -> realizarPedido(producto, pae));
                         }
                     }
+                }
+                case 6 -> {
+                    System.out.println("[!] Saliendo al menú principal...");
+                    return;
                 }
             }
-            continuar = confirmarContinuar();
         }
     }
-    public  void pedidoProducto(Producto producto,float presupuesto){
-        int cantidad = obtenerEntradaInt("Ingrese la cantidad para el producto %s que desea agregar\n:".formatted(producto.toString()));
-        boolean seguirPedido = true;
-        while (presupuesto - cantidad*producto.precio < 0 && seguirPedido){
-            System.out.println("Pedido supera el presupuesto, no es posible agregar esa cantidad del producto");
-            System.out.printf("Presupuesto actual: %f",presupuesto);
-            seguirPedido = confirmarContinuar();
-            if (seguirPedido){
-                cantidad = obtenerEntradaInt("Ingrese una cantidad nueva para el producto %s que desea agregar\n:".formatted(producto.toString()));
+
+    public boolean hayProductos(LinkedList<Producto> productos) {
+        if (productos.size() == 0) {
+            System.out.println("[!] Para realizar esta acción es necesario que hayan productos registrados.");
+            return false;
+        } else {
+            return true;
+        }
+    }
+
+    public LinkedList<Producto> productosAPuntoDeAgotarse(LinkedList<Producto> productos) {
+        LinkedList<Producto> productosAPuntoDeAgotarse = new LinkedList<>();
+        productos.forEach(producto -> {
+            if (producto.cantidad < 10) {
+                productosAPuntoDeAgotarse.add(producto);
             }
-            else {
-                cantidad = 0;
+        });
+        return productosAPuntoDeAgotarse;
+    }
+
+    public void realizarPedido(Producto producto, PAE pae) {
+        int cantidad = 0;
+        float costo = 0;
+        while (true) {
+            System.out.printf("- Presupuesto actual: $%f%n", pae.presupuesto);
+            cantidad = obtenerEntradaInt(("Ingrese la cantidad a aumentar para el producto '%s' " +
+                    "con precio unitario de $%f y cantidad actual de %d unidades:").formatted(producto.nombre, producto.precio, producto.cantidad));
+            costo = producto.precio * cantidad;
+            if (costo > pae.presupuesto) {
+                System.out.println("[!] El costo del pedido supera el presupuesto. Disminuya la cantidad.");
+            } else {
+                producto.cantidad += cantidad;
+                pae.presupuesto -= cantidad * producto.precio;
+                System.out.println("[✔] Pedido del producto '" + producto.nombre + "' realizado correctamente.");
+                return;
             }
         }
-        producto.cantidad += cantidad;
-        presupuesto-= cantidad*producto.precio;
     }
 }

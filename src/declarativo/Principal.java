@@ -1,28 +1,23 @@
 package declarativo;
 
 import declarativo.menus.MenuPrincipal;
+import declarativo.modelos.PAE;
 import declarativo.modelos.Colegio;
-import declarativo.modelos.Entrega;
-import declarativo.modelos.Producto;
 import declarativo.modelos.Proveedor;
-
-import java.util.LinkedList;
-
+import declarativo.modelos.Producto;
+import declarativo.modelos.Entrega;
 
 public class Principal {
     public static void main(String[] args) {
-        LinkedList<Colegio> colegios = new LinkedList<>();
-        colegios.add(new Colegio("I.E Jose", "2176", 2));
-        colegios.add(new Colegio("I.E Divino", "2135", 50));
-        colegios.add(new Colegio("I.E La presentacion", "1456", 40));
-        LinkedList<Entrega> entregas = new LinkedList<>();
-        LinkedList<Proveedor> proveedores = new LinkedList<>();
-        proveedores.add(new Proveedor("1213123","Colanta", "32424323"));
-        proveedores.add(new Proveedor("1213143","ALpina", "324243223"));
-        proveedores.add(new Proveedor("1213212123","Fruber", "325444323"));
-        LinkedList<Producto> productos = new LinkedList<>();
-        float presupuesto = 50000000;
-        new MenuPrincipal(colegios,entregas,productos,proveedores,presupuesto);
+        PAE pae = new PAE();
+        pae.agregarColegio(new Colegio("IE Jose", "10", 2));
+        pae.agregarColegio(new Colegio("IE Divino Niño", "20", 50));
+        pae.agregarColegio(new Colegio("IE La Presentación", "30", 40));
+        pae.agregarProveedor(new Proveedor("1", "Colanta", "32424323"));
+        pae.agregarProveedor(new Proveedor("2", "Alpina", "324243223"));
+        pae.agregarProveedor(new Proveedor("3", "Fruber", "325444323"));
+        pae.aumentarPresupuesto(50000000);
+        new MenuPrincipal(pae);
     }
 }
 
